@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+.DS_Store
+*.pdf
+kaggle_data
+*.pyc
+*.dot

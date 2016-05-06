@@ -54,26 +54,18 @@ def svm_loss_vectorized(W, X, y, lambda_):
     """
     loss = 0.0
     dW = np.zeros(W.shape)  # initialize the gradient as zero
-
+    # loss
     all_scores = np.dot(W, X)
     all_scores = all_scores - all_scores[y, np.arange(all_scores.shape[1])] + 1
     data_loss = np.sum(np.maximum(all_scores, 0)) - all_scores.shape[1]
     data_loss /= all_scores.shape[1]
     regularization_loss = lambda_ * np.sum(W ** 2)
     loss = data_loss + regularization_loss
-    ##########################################################################
-    # TODO:                                                                     #
-    # Implement a vectorized version of the gradient for the structured SVM     #
-    # loss, storing the result in dW.                                           #
-    #                                                                           #
-    # Hint: Instead of computing the gradient from scratch, it may be easier    #
-    # to reuse some of the intermediate values that you used to compute the     #
-    # loss.                                                                     #
-    ##########################################################################
-    
-    dW /= X.shape[0]
+    # gradient
+    all_scores[all_scores > 0] = 1
+    all_scores[y, np.arange(len(y))] = -np.sum(all_scores, axis=0) + 1
+    dW = np.dot(all_scores, X.T)
+    dW /= X.shape[1]
+    # regularization
     dW += 2*lambda_ * W
-    ##########################################################################
-    #                             END OF YOUR CODE                              #
-    ##########################################################################
     return loss, dW

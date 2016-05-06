@@ -30,11 +30,17 @@ def softmax_loss_naive(W, X, y, lambda_):
         current_loss = 0
         for score in scores:
             current_loss += exp(score)
+        for k in range(W.shape[0]):
+            dW[k] += (exp(scores[k]) / current_loss) * X[i]
+            if k == true_class:
+                dW[k] -= X[i]
         current_loss = log(current_loss) - true_class_score
         data_loss += current_loss
     data_loss /= X.shape[0]
     regularization_loss = lambda_ * np.sum(W ** 2)
     loss = data_loss + regularization_loss
+    dW /= X.shape[0]
+    dW += 2 * lambda_ * W
     return loss, dW
 
 
@@ -42,7 +48,7 @@ def softmax_loss_vectorized(W, X, y, lambda_):
     """
     Softmax loss function, vectorized version.
 
-    Inputs and outputs are the same as softmax_loss_naive.
+    Inputs and outputs are tzhe same as softmax_loss_naive.
     """
     # Initialize the loss and gradient to zero.
     loss = 0.0

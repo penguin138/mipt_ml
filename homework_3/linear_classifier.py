@@ -92,3 +92,9 @@ class Softmax(LinearClassifier):
 
     def loss(self, X_batch, y_batch, reg):
         return softmax_loss_vectorized(self.W, X_batch, y_batch, reg)
+
+    def predict_probabilities(self, X):
+        all_scores = np.dot(self.W, X)
+        all_scores_exp = np.exp(all_scores)
+        probs = (all_scores_exp/all_scores_exp.sum(axis=0)).T
+        return probs

@@ -1,4 +1,5 @@
 import numpy as np
+from math import exp, log
 # from random import shuffle
 
 
@@ -16,24 +17,24 @@ def softmax_loss_naive(W, X, y, reg):
     - gradient with respect to weights W, an array of same size as W
     """
     # Initialize the loss and gradient to zero.
-
-    ##########################################################################
-    # TODO: Compute the softmax loss and its gradient using explicit loops.     #
-    # Store the loss in loss and the gradient in dW. If you are not careful     #
-    # here, it is easy to run into numeric instability. Don't forget the        #
-    # regularization!                                                           #
-    ##########################################################################
-
-    # Right now the loss is a sum over all training examples, but we want it
-    # to be an average instead so we divide by num_train.
-
-    # Add regularization to the loss.
-
-    ##########################################################################
-    #                          END OF YOUR CODE                                 #
-    ##########################################################################
+    dW = np.zeros(W.shape)
     loss = 0
-    dW = 0
+    all_scores = np.dot(W, X)
+    all_scores = all_scores.transpose()
+    X = X.transpose()
+    data_loss = 0
+    for i in range(X.shape[0]):
+        scores = all_scores[i]
+        true_class = y[i]
+        true_class_score = scores[true_class]
+        current_loss = 0
+        for score in scores:
+            current_loss += exp(score)
+        current_loss = log(current_loss) - true_class_score
+        data_loss += current_loss
+    data_loss /= X.shape[0]
+    regularization_loss = np.sum(W ** 2)
+    loss = data_loss + regularization_loss
     return loss, dW
 
 

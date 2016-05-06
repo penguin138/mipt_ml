@@ -3,7 +3,7 @@ from math import exp, log
 # from random import shuffle
 
 
-def softmax_loss_naive(W, X, y, reg):
+def softmax_loss_naive(W, X, y, lambda_):
     """
     Softmax loss function, naive implementation (with loops)
     Inputs:
@@ -33,7 +33,7 @@ def softmax_loss_naive(W, X, y, reg):
         current_loss = log(current_loss) - true_class_score
         data_loss += current_loss
     data_loss /= X.shape[0]
-    regularization_loss = np.sum(W ** 2)
+    regularization_loss = lambda_ * np.sum(W ** 2)
     loss = data_loss + regularization_loss
     return loss, dW
 

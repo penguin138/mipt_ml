@@ -1,0 +1,561 @@
+Training took 20.595154s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0, learning_rate: 1
+Current log_loss is 0.868658
+Training took 19.869830s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0, learning_rate: 0.1
+Current log_loss is 1.120413
+Training took 19.857374s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0, learning_rate: 0.5
+Current log_loss is 0.931255
+Training took 19.273103s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0, learning_rate: 0.01
+Current log_loss is 1.341590
+Training took 19.251954s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0, learning_rate: 0.05
+Current log_loss is 1.211889
+Training took 19.540109s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0, learning_rate: 0.001
+Current log_loss is 1.381631
+Training took 19.753583s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0, learning_rate: 0.005
+Current log_loss is 1.363452
+Training took 19.236756s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0, learning_rate: 0.0001
+Current log_loss is 1.385759
+Training took 19.521861s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0, learning_rate: 0.0005
+Current log_loss is 1.383929
+Training took 20.513922s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.1, learning_rate: 1
+Current log_loss is 1.363435
+Training took 21.351585s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.1, learning_rate: 0.1
+Current log_loss is 1.363607
+Training took 19.647504s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.1, learning_rate: 0.5
+Current log_loss is 1.364090
+Training took 21.406159s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.1, learning_rate: 0.01
+Current log_loss is 1.366536
+Training took 20.575081s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.1, learning_rate: 0.05
+Current log_loss is 1.363661
+Training took 21.408868s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.1, learning_rate: 0.001
+Current log_loss is 1.382013
+Training took 19.197115s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.1, learning_rate: 0.005
+Current log_loss is 1.371634
+Training took 19.967150s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.1, learning_rate: 0.0001
+Current log_loss is 1.385859
+Training took 22.126684s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.1, learning_rate: 0.0005
+Current log_loss is 1.383974
+Training took 23.076846s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.01, learning_rate: 1
+Current log_loss is 1.227830
+Training took 20.674631s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.01, learning_rate: 0.1
+Current log_loss is 1.238148
+Training took 20.496256s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.01, learning_rate: 0.5
+Current log_loss is 1.228774
+Training took 20.993923s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.01, learning_rate: 0.01
+Current log_loss is 1.345967
+Training took 20.662950s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.01, learning_rate: 0.05
+Current log_loss is 1.266538
+Training took 21.636581s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.01, learning_rate: 0.001
+Current log_loss is 1.381604
+Training took 21.795723s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.01, learning_rate: 0.005
+Current log_loss is 1.364500
+Training took 21.804235s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.01, learning_rate: 0.0001
+Current log_loss is 1.385894
+Training took 20.164254s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.01, learning_rate: 0.0005
+Current log_loss is 1.383934
+Training took 19.571105s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.001, learning_rate: 1
+Current log_loss is 0.976712
+Training took 21.725972s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.001, learning_rate: 0.1
+Current log_loss is 1.136218
+Training took 19.330539s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.001, learning_rate: 0.5
+Current log_loss is 0.996036
+Training took 19.266120s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.001, learning_rate: 0.01
+Current log_loss is 1.342060
+Training took 19.350542s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.001, learning_rate: 0.05
+Current log_loss is 1.219639
+Training took 19.289677s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.001, learning_rate: 0.001
+Current log_loss is 1.381603
+Training took 19.453819s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.001, learning_rate: 0.005
+Current log_loss is 1.363334
+Training took 19.253186s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.001, learning_rate: 0.0001
+Current log_loss is 1.385806
+Training took 19.335004s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.001, learning_rate: 0.0005
+Current log_loss is 1.383862
+Training took 19.299907s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.0001, learning_rate: 1
+Current log_loss is 0.882163
+Training took 19.393027s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.1
+Current log_loss is 1.121081
+Training took 19.787853s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.5
+Current log_loss is 0.936750
+Training took 19.256925s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.01
+Current log_loss is 1.341740
+Training took 19.329209s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.05
+Current log_loss is 1.212127
+Training took 19.268917s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.001
+Current log_loss is 1.381627
+Training took 19.835374s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.005
+Current log_loss is 1.363583
+Training took 19.476686s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.0001
+Current log_loss is 1.385859
+Training took 19.480442s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.0005
+Current log_loss is 1.383968
+Training took 19.871247s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-05, learning_rate: 1
+Current log_loss is 0.868552
+Training took 22.515553s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.1
+Current log_loss is 1.119456
+Training took 19.445091s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.5
+Current log_loss is 0.931367
+Training took 19.331474s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.01
+Current log_loss is 1.341738
+Training took 19.298408s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.05
+Current log_loss is 1.211443
+Training took 19.805054s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.001
+Current log_loss is 1.381607
+Training took 19.352521s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.005
+Current log_loss is 1.363345
+Training took 22.378395s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.0001
+Current log_loss is 1.385808
+Training took 23.562458s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.0005
+Current log_loss is 1.383953
+Training took 21.171882s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-06, learning_rate: 1
+Current log_loss is 0.871304
+Training took 19.599141s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.1
+Current log_loss is 1.119982
+Training took 21.617884s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.5
+Current log_loss is 0.928138
+Training took 20.453742s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.01
+Current log_loss is 1.341548
+Training took 22.279104s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.05
+Current log_loss is 1.212303
+Training took 21.129308s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.001
+Current log_loss is 1.381687
+Training took 21.530055s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.005
+Current log_loss is 1.363418
+Training took 21.338027s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.0001
+Current log_loss is 1.385735
+Training took 21.943778s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.0005
+Current log_loss is 1.383851
+Training took 22.508732s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-07, learning_rate: 1
+Current log_loss is 0.868919
+Training took 21.184055s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.1
+Current log_loss is 1.119393
+Training took 21.052625s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.5
+Current log_loss is 0.931814
+Training took 19.332738s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.01
+Current log_loss is 1.342010
+Training took 19.680070s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.05
+Current log_loss is 1.212194
+Training took 19.408828s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.001
+Current log_loss is 1.381531
+Training took 22.068194s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.005
+Current log_loss is 1.363349
+Training took 21.294347s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.0001
+Current log_loss is 1.385895
+Training took 22.641019s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.0005
+Current log_loss is 1.384058
+Training took 28.818377s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-08, learning_rate: 1
+Current log_loss is 0.869568
+Training took 22.994240s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.1
+Current log_loss is 1.119781
+Training took 26.379455s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.5
+Current log_loss is 0.928693
+Training took 24.948973s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.01
+Current log_loss is 1.341749
+Training took 28.179092s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.05
+Current log_loss is 1.211230
+Training took 27.416829s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.001
+Current log_loss is 1.381598
+Training took 26.537303s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.005
+Current log_loss is 1.363320
+Training took 27.889799s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.0001
+Current log_loss is 1.385786
+Training took 29.130835s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.0005
+Current log_loss is 1.383995
+Training took 28.818292s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-09, learning_rate: 1
+Current log_loss is 0.871348
+Training took 27.469411s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.1
+Current log_loss is 1.118619
+Training took 29.801274s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.5
+Current log_loss is 0.929039
+Training took 28.945504s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.01
+Current log_loss is 1.341895
+Training took 28.613288s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.05
+Current log_loss is 1.212230
+Training took 28.881997s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.001
+Current log_loss is 1.381519
+Training took 29.076405s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.005
+Current log_loss is 1.363310
+Training took 28.810857s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.0001
+Current log_loss is 1.385863
+Training took 25.477681s
+Parameters: num_iters: 1000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.0005
+Current log_loss is 1.384014
+Training took 274.895219s
+Parameters: num_iters: 1000,batch_size: 10000,lambda: 0, learning_rate: 1
+Current log_loss is 0.868614
+Training took 33.303878s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0, learning_rate: 1
+Current log_loss is 0.820848
+Training took 34.821366s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0, learning_rate: 0.1
+Current log_loss is 1.028233
+Training took 32.934036s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0, learning_rate: 0.5
+Current log_loss is 0.870027
+Training took 33.559393s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0, learning_rate: 0.01
+Current log_loss is 1.302581
+Training took 36.020742s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0, learning_rate: 0.05
+Current log_loss is 1.119711
+Training took 38.543750s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0, learning_rate: 0.001
+Current log_loss is 1.376995
+Training took 36.001543s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0, learning_rate: 0.005
+Current log_loss is 1.341930
+Training took 37.176277s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0, learning_rate: 0.0001
+Current log_loss is 1.385342
+Training took 42.758106s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0, learning_rate: 0.0005
+Current log_loss is 1.381594
+Training took 45.694338s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.1, learning_rate: 1
+Current log_loss is 1.364406
+Training took 39.424790s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.1, learning_rate: 0.1
+Current log_loss is 1.363631
+Training took 32.266052s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.1, learning_rate: 0.5
+Current log_loss is 1.363074
+Training took 41.288077s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.1, learning_rate: 0.01
+Current log_loss is 1.364069
+Training took 40.962673s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.1, learning_rate: 0.05
+Current log_loss is 1.363607
+Training took 38.843555s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.1, learning_rate: 0.001
+Current log_loss is 1.378615
+Training took 39.988134s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.1, learning_rate: 0.005
+Current log_loss is 1.366520
+Training took 35.543431s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.1, learning_rate: 0.0001
+Current log_loss is 1.385346
+Training took 40.516727s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.1, learning_rate: 0.0005
+Current log_loss is 1.381944
+Training took 40.417316s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.01, learning_rate: 1
+Current log_loss is 1.229180
+Training took 40.193625s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.01, learning_rate: 0.1
+Current log_loss is 1.229441
+Training took 42.988741s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.01, learning_rate: 0.5
+Current log_loss is 1.228404
+Training took 40.022261s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.01, learning_rate: 0.01
+Current log_loss is 1.316033
+Training took 35.248038s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.01, learning_rate: 0.05
+Current log_loss is 1.238432
+Training took 36.192436s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.01, learning_rate: 0.001
+Current log_loss is 1.377117
+Training took 34.651750s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.01, learning_rate: 0.005
+Current log_loss is 1.345899
+Training took 35.408415s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.01, learning_rate: 0.0001
+Current log_loss is 1.385368
+Training took 39.178138s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.01, learning_rate: 0.0005
+Current log_loss is 1.381826
+Training took 39.780038s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.001, learning_rate: 1
+Current log_loss is 0.970249
+Training took 44.575384s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.001, learning_rate: 0.1
+Current log_loss is 1.059438
+Training took 36.509218s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.001, learning_rate: 0.5
+Current log_loss is 0.973724
+Training took 35.223840s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.001, learning_rate: 0.01
+Current log_loss is 1.304090
+Training took 38.376208s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.001, learning_rate: 0.05
+Current log_loss is 1.136597
+Training took 37.017886s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.001, learning_rate: 0.001
+Current log_loss is 1.376937
+Training took 37.283484s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.001, learning_rate: 0.005
+Current log_loss is 1.342025
+Training took 36.242923s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.001, learning_rate: 0.0001
+Current log_loss is 1.385429
+Training took 37.957103s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.001, learning_rate: 0.0005
+Current log_loss is 1.381559
+Training took 32.369129s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.0001, learning_rate: 1
+Current log_loss is 0.839437
+Training took 32.400297s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.1
+Current log_loss is 1.030850
+Training took 34.796704s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.5
+Current log_loss is 0.882325
+Training took 33.951830s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.01
+Current log_loss is 1.302840
+Training took 33.855268s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.05
+Current log_loss is 1.121485
+Training took 33.793507s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.001
+Current log_loss is 1.376973
+Training took 35.028607s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.005
+Current log_loss is 1.341649
+Training took 33.957563s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.0001
+Current log_loss is 1.385425
+Training took 35.403962s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 0.0001, learning_rate: 0.0005
+Current log_loss is 1.381603
+Training took 37.341412s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-05, learning_rate: 1
+Current log_loss is 0.820503
+Training took 37.322516s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.1
+Current log_loss is 1.029689
+Training took 40.931972s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.5
+Current log_loss is 0.868819
+Training took 33.645536s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.01
+Current log_loss is 1.302462
+Training took 35.892612s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.05
+Current log_loss is 1.119850
+Training took 36.082766s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.001
+Current log_loss is 1.376812
+Training took 34.536265s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.005
+Current log_loss is 1.341846
+Training took 35.817095s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.0001
+Current log_loss is 1.385278
+Training took 35.411771s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-05, learning_rate: 0.0005
+Current log_loss is 1.381635
+Training took 36.076249s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-06, learning_rate: 1
+Current log_loss is 0.822364
+Training took 35.096251s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.1
+Current log_loss is 1.028539
+Training took 39.291164s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.5
+Current log_loss is 0.874214
+Training took 37.773222s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.01
+Current log_loss is 1.302539
+Training took 35.358973s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.05
+Current log_loss is 1.119657
+Training took 41.610625s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.001
+Current log_loss is 1.376942
+Training took 41.833252s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.005
+Current log_loss is 1.341774
+Training took 34.796705s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.0001
+Current log_loss is 1.385373
+Training took 38.367109s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-06, learning_rate: 0.0005
+Current log_loss is 1.381506
+Training took 36.381748s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-07, learning_rate: 1
+Current log_loss is 0.820742
+Training took 36.692925s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.1
+Current log_loss is 1.028597
+Training took 37.241573s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.5
+Current log_loss is 0.870609
+Training took 35.405933s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.01
+Current log_loss is 1.302618
+Training took 37.734085s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.05
+Current log_loss is 1.118949
+Training took 40.653317s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.001
+Current log_loss is 1.376925
+Training took 39.886846s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.005
+Current log_loss is 1.341810
+Training took 37.057713s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.0001
+Current log_loss is 1.385436
+Training took 36.075999s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-07, learning_rate: 0.0005
+Current log_loss is 1.381592
+Training took 38.996362s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-08, learning_rate: 1
+Current log_loss is 0.818134
+Training took 38.029752s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.1
+Current log_loss is 1.028429
+Training took 38.553649s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.5
+Current log_loss is 0.867935
+Training took 35.025328s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.01
+Current log_loss is 1.302029
+Training took 37.575308s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.05
+Current log_loss is 1.118975
+Training took 38.127660s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.001
+Current log_loss is 1.376933
+Training took 38.548954s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.005
+Current log_loss is 1.341794
+Training took 40.164851s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.0001
+Current log_loss is 1.385345
+Training took 35.277512s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-08, learning_rate: 0.0005
+Current log_loss is 1.381710
+Training took 36.300760s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-09, learning_rate: 1
+Current log_loss is 0.818101
+Training took 37.049980s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.1
+Current log_loss is 1.026430
+Training took 35.734915s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.5
+Current log_loss is 0.870137
+Training took 34.264924s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.01
+Current log_loss is 1.302607
+Training took 36.083887s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.05
+Current log_loss is 1.118956
+Training took 37.329251s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.001
+Current log_loss is 1.376899
+Training took 34.420787s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.005
+Current log_loss is 1.341644
+Training took 36.861490s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.0001
+Current log_loss is 1.385261
+Training took 39.546273s
+Parameters: num_iters: 2000,batch_size: 1000,lambda: 1e-09, learning_rate: 0.0005
+Current log_loss is 1.381627
+Training took 51.170674s
+Parameters: num_iters: 3000,batch_size: 1000,lambda: 0, learning_rate: 1
+Current log_loss is 0.793485
+Training took 52.316457s
+Parameters: num_iters: 3000,batch_size: 1000,lambda: 0, learning_rate: 0.1
+Current log_loss is 0.981083
+Training took 49.431716s
+Parameters: num_iters: 3000,batch_size: 1000,lambda: 0, learning_rate: 0.5
+Current log_loss is 0.841404
+Training took 49.706588s
+Parameters: num_iters: 3000,batch_size: 1000,lambda: 0, learning_rate: 0.01
+Current log_loss is 1.268765
+Training took 49.610209s
+Parameters: num_iters: 3000,batch_size: 1000,lambda: 0, learning_rate: 0.05
+Current log_loss is 1.066022
+Training took 967.819550s
+Parameters: num_iters: 3000,batch_size: 1000,lambda: 0, learning_rate: 0.001
+Current log_loss is 1.372494

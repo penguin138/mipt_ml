@@ -33,18 +33,23 @@ class LinearClassifier:
         if self.W is None:
             # lazily initialize W
             self.W = np.random.randn(num_classes, dim) * 0.001
-
+        best_W = np.zeros(self.W.shape)
+        best_loss = 0
         # Run stochastic gradient descent to optimize W
-        loss_history = []
+        loss_history = []  # to plot losses
         for it in range(num_iters):
             permutation = np.random.choice(np.arange(X.shape[1]), batch_size)
             X_batch = X[:, permutation]
             y_batch = y[permutation]
             loss, gradient = self.loss(X_batch, y_batch, lambda_)
             self.W = self.W - learning_rate * gradient
+            if loss_history == [] or loss < min(loss_history):
+                best_W = self.W
+                best_loss = loss
             loss_history.append(loss)
             if verbose and it % 100 == 0:
-                print('iteration %d / %d: loss %f' % (it, num_iters, loss))
+                print('iteration %d / %d: loss %f, best_loss %f' % (it, num_iters, loss, best_loss))
+        self.W = best_W
         return loss_history
 
     def predict(self, X):

@@ -5,3 +5,4 @@ kaggle_data
 *.pyc
 *.dot
 *.csv
+.flake8

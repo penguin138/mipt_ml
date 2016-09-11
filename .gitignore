@@ -5,4 +5,5 @@ kaggle_data
 *.pyc
 *.dot
 *.csv
+lectures
 .flake8

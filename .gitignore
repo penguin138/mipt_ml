@@ -2,6 +2,7 @@
 .DS_Store
 *.pdf
 kaggle_data
+data
 *.pyc
 *.dot
 *.csv

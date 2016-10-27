@@ -13,7 +13,7 @@ RUN pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip
 RUN pip install --upgrade https://github.com/yandexdataschool/AgentNet/archive/master.zip
 RUN mkdir ~/gym2 && cd ~/gym2 && git clone https://github.com/openai/gym.git && cd gym && pip install -e .[atari]
 RUN pip3 install jupyter
-COPY run_jupyter.sh /jupyter
+COPY run_jupyter.sh /jupyter/
 COPY jupyter_config.py /root/.jupyter/
 RUN mkdir /dqn
 WORKDIR dqn

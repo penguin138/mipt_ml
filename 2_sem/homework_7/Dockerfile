@@ -14,8 +14,8 @@ RUN pip3 install --upgrade https://github.com/yandexdataschool/AgentNet/archive/
 RUN mkdir ~/gym && cd ~/gym && git clone https://github.com/openai/gym.git && cd gym && pip3 install -e .[atari]
 RUN pip3 install jupyter nose
 COPY .theanorc /root/
-COPY run_jupyter.sh /jupyter/
+COPY run_jupyter.sh /
 COPY jupyter_config.py /root/.jupyter/
-RUN mkdir /dqn
-WORKDIR dqn
-CMD /jupyter/run_jupyter.sh
+RUN mkdir /root/notebooks
+WORKDIR /root/notebooks
+CMD /run_jupyter.sh
